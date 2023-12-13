@@ -1,0 +1,1284 @@
+2019-12-06 02-38
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-06 02-54
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-06 03-07
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-10 23-02
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-10 23-22
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-10 23-32
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-10 23-38
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-11 13-39
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-11 23-31
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 01-49
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 02-16
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning a block scalar
+ in 'reader', line 148, column 1:
+    >>>>>>> External Changes
+    ^
+expected chomping or indentation indicators, but found >(62)
+ in 'reader', line 148, column 2:
+    >>>>>>> External Changes
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalarIndicators(ScannerImpl.java:1711)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanBlockScalar(ScannerImpl.java:1578)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchBlockScalar(ScannerImpl.java:994)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFolded(ScannerImpl.java:976)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:384)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 03-12
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 03-17
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 03-22
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 03-25
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 03-32
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-12 03-37
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	- menuservidor.inicio
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-13 23-12
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-13 23-20
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-13 23-45
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 74, column 1:
+    	- essentials.balance
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-16 03-09
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 74, column 1:
+    	- essentials.balance
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-16 03-17
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.IllegalArgumentException: The following file couldn't pass on Parser.
+plugins/GroupManager/globalgroups.yml
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:119)
+	at org.anjocaido.groupmanager.GlobalGroups.<init>(GlobalGroups.java:44)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:162)
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:92)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'reader', line 118, column 1:
+    	
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:419)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:530)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:142)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:236)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:215)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:139)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467)
+	at org.anjocaido.groupmanager.GlobalGroups.load(GlobalGroups.java:116)
+	... 12 more
+
+============================================================================
+
+2019-12-16 03-21
+=============================== GM ERROR LOG ===============================
+= ERROR REPORT START - 0.2.0 =
+
+java.lang.NullPointerException
+	at org.anjocaido.groupmanager.GroupManager.onEnable(GroupManager.java:170)
+	at org.anjocaido.groupmanager.GroupManager.onCommand(GroupManager.java:1816)
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:710)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:695)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:433)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:397)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:971)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:816)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+============================================================================
+

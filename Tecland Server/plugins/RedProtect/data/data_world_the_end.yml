@@ -1,0 +1,50 @@
+end_lobby:
+  name: end_lobby
+  lastvisit: 21/12/2019
+  admins: []
+  members: []
+  leaders:
+  - '#server#@#server#'
+  priority: 0
+  welcome: 'hide '
+  world: world_the_end
+  maxX: -1099
+  maxZ: -888
+  minX: -1219
+  minZ: -935
+  maxY: 256
+  minY: 0
+  value: 0
+  flags:
+    can-grow: true
+    leaves-decay: false
+    allow-effects: true
+    door: true
+    teleport: true
+    allow-spawner: false
+    mob-loot: true
+    button: false
+    fire: false
+    flow: false
+    iceform-player: false
+    allow-home: false
+    chest: false
+    iceform-world: false
+    smart-door: false
+    fishing: true
+    use-potions: true
+    lever: false
+    pvp: false
+    spawn-animals: true
+    passives: false
+    press-plate: false
+    minecart: false
+    ender-chest: false
+    build: false
+    allow-fly: true
+    gravity: false
+    flow-damage: false
+    spawn-monsters: false
+    allow-potions: true
+  candelete: true
+  tppoint: ''

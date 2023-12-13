@@ -1,0 +1,31 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "V4ca",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "89fd8534-335f-3ed2-82ef-f1554564a277",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}

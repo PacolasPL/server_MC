@@ -1,0 +1,41 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "AdrielRdz",
+    "QuestData": {
+        "CompletedQuests": [
+            {
+                "Quest": 1,
+                "Date": 54620223L
+            }
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "0bce8193-a522-361d-ae18-388f4c7830bc",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 4
+        },
+        {
+            "Dialog": 5
+        }
+    ]
+}

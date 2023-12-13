@@ -1,0 +1,27 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Diiegohazard",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "f1a8572e-ddfd-347c-908c-612bf7e04e68",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}

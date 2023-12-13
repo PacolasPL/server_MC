@@ -1,0 +1,21 @@
+lastAccountName: Perrosky45
+timestamps:
+  login: 1588620648366
+  lastteleport: 1588041732787
+  logout: 1588621293795
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 1321.2995274539696
+  y: 90.0
+  z: -974.8070045383381
+  yaw: 127.170616
+  pitch: 33.92546
+logoutlocation:
+  world: world
+  x: 1314.5403157498697
+  y: 90.0
+  z: -969.8625000119209
+  yaw: 222.06898
+  pitch: 16.454872
+afk: false

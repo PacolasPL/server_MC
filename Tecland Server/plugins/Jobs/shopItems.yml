@@ -1,0 +1,156 @@
+Items:
+  Tridente:
+    Price: 150000.0
+    Icon:
+      Id: trident
+      Amount: 1
+      Name: "&eTridente poderoso"
+      Lore:
+      - "&6Lealtad"
+      - "&6Reparación"
+      - ""
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.trident
+    RequiredJobLevels:
+    - Fisherman-50
+    - Enchanter-30
+    RequiredTotalLevels: 120
+    PerformCommands:
+    - "msg &e¡Gracias por comprar el tridente poderoso!"
+    GiveItems:
+      Trident:
+        Id: trident
+        Amount: 1
+        Name: "&eTridente poderoso"
+        Lore:
+        - "&eTridente mamadisimo"
+        Enchants:
+        - LOYALTY=3
+        - MENDING=1
+#
+#
+#
+  EspadaDiamante:
+    Price: 40000.0
+    Icon:
+      Id: diamond_sword
+      Amount: 1
+      Name: "&eEspada quemante"
+      Lore:
+      - "&6Aspecto de fuego"
+      - "&6Filo"
+      - ""
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.diamondsword1
+    RequiredJobLevels:
+    - Miner-50
+    RequiredTotalLevels: 40
+    PerformCommands:
+    - "msg &e¡Gracias por comprar la espada quemante!"
+    GiveItems:
+      DiamondSword:
+        Id: diamond_sword
+        Amount: 1
+        Name: "&eEspada quemante"
+        Lore:
+        - "&eEspada de diamante filosa"
+        Enchants:
+        - FIRE_ASPECT=2
+        - SHARPNESS=5
+#
+#
+#
+
+  ArcoFuego:
+    Price: 42000.0
+    Icon:
+      Id: bow
+      Amount: 1
+      Name: "&eArco de fuego"
+      Lore:
+      - "&6Flecha incendiaria"
+      - "&6Infinidad"
+      - ""
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.arcofuego
+    RequiredJobLevels:
+    - Woodcutter-30
+    RequiredTotalLevels: 30
+    PerformCommands:
+    - "msg &e¡Gracias por comprar el arco de fuego"
+    GiveItems:
+      ArcoFuego:
+        Id: bow
+        Amount: 1
+        Name: "&eArco de fuego"
+        Lore:
+        - "&eArco que dispara flechas de fuego"
+        Enchants:
+        - INFINITY=1
+        - FLAME=1
+#
+#
+#
+
+  Elytra:
+    Price: 250000.0
+    Icon:
+      Id: elytra
+      Amount: 1
+      Name: "&eElytras reforzada"
+      Lore:
+      - "&6Reparación"
+      - "&6Irrompibilidad"
+      - ""
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.elytra
+    RequiredJobLevels:
+    - Miner-150
+    - Enchanter-40
+    RequiredTotalLevels: 120
+    PerformCommands:
+    - "msg &e¡Gracias por comprar las elytra reforzada"
+    GiveItems:
+      Elytra:
+        Id: elytra
+        Amount: 1
+        Name: "&eElytras reforzadas"
+        Lore:
+        - "&eElytra reforzada con acero"
+        Enchants:
+        - MENDING=1
+        - UNBREAKING=3
+#
+#
+#
+
+  Shulkerbox:
+    Price: 25000.0
+    Icon:
+      Id: shulker_box
+      Amount: 1
+      Name: "&eCaja de Shulker"
+      Lore:
+      - "&6Una caja un poco peculiar"
+      - "&6Guarda todo lo que se te antoje en ella"
+      - ""
+      HideWithoutPermission: true
+    RequiredPermission:
+    - jobs.item.shulkerbox
+    RequiredJobLevels:
+    - Miner-50
+    - Enchanter-30
+    RequiredTotalLevels: 80
+    PerformCommands:
+    - "msg &e¡Gracias por comprar la caja de Shulker"
+    GiveItems:
+      ArcoFuego:
+        Id: shulker_box
+        Amount: 1
+        Name: "&eCaja de Shulker"
+        Lore:
+        - "&eCaja de Shulker bonita"

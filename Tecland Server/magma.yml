@@ -1,0 +1,25 @@
+# This is the main configuration file for Magma.
+# 
+# Site: https://magmafoundation.org
+# Discord: https://discord.gg/6rkqngA
+# 
+# Value: debug.debugPrintCommandNode Default: false   # Prints out all Command Nodes for permissions
+# Value: forge.blacklistedmods.enabled Default: false   # Enable blacklisting of mods
+# Value: experience-merge-max-value Default: -1   # Instructs the server put a maximum value on experience orbs, preventing them all from merging down into 1 single orb.
+# Value: forge.blacklistedmods.list Default:    # A list of mods to blacklist
+# Value: forge.bukkitPermissionHandler.enable Default: true   # Let's Bukkit permission plugins handle forge/modded commands
+# Value: debug.debugPrintBukkitMatterials Default: false   # Prints the Forge Bukkit Materials
+# Value: forge.blacklistedmods.kickmessage Default: Please Remove Blacklisted Mods   # Mod Blacklist kick message
+
+debug:
+  debugPrintCommandNode: false
+  debugPrintBukkitMatterials: false
+forge:
+  blacklistedmods:
+    enabled: false
+    list: []
+    kickmessage: Please Remove Blacklisted Mods
+  bukkitPermissionHandler:
+    enable: true
+experience-merge-max-value: -1
+config-version: 2

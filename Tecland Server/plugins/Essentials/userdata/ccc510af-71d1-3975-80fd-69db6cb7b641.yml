@@ -1,0 +1,32 @@
+lastAccountName: Tecsharp
+timestamps:
+  login: 1589257123955
+  logout: 1589257216812
+  lastteleport: 1588759791045
+  kits:
+    dtools: 1576561337638
+ipAddress: 192.168.0.19
+logoutlocation:
+  world: world
+  x: 1307.7695063675922
+  y: 85.0
+  z: -986.9901100030485
+  yaw: -158.77048
+  pitch: 63.999344
+afk: false
+lastlocation:
+  world: end
+  x: 6.896756576127787
+  y: 64.0
+  z: 8.401869712497819
+  yaw: 0.0
+  pitch: 0.06507721
+money: '5632.4045000000002550'
+homes:
+  home:
+    world: survival
+    x: 336.7046043371579
+    y: 70.0
+    z: 281.30000001192093
+    yaw: 112.237976
+    pitch: 10.4999895

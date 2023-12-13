@@ -1,0 +1,21 @@
+users:
+  33245eac-bc16-3282-b4ab-172fd5233ea8:
+    lastname: ArchToon
+    group: Admin
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
